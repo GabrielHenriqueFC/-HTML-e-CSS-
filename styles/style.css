@@ -11,11 +11,13 @@ main {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
+    background-color: #111111;
+    
  }
 
 header {
     width: 100vw;
-    background-color: #01080E;
+    background-color: #111111;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +83,7 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-right: 25px;
-    padding: 50px;
+    padding: 60px;
     left: -200px;
     text-decoration: none;
     color: white;
@@ -109,7 +111,7 @@ header {
     font-weight: bold;
     border: none;
     border-radius: 50px 0px 0px 50px;
-    background-image:linear-gradient(to right, #1DA981,  #01080E);
+    background-image:linear-gradient(to right, #1DA981,  #111111);
     color: white;
     text-indent: -100px;
 }
@@ -124,8 +126,90 @@ header {
     font-weight: bold;
     border: none;
     border-radius: 0px 50px 50px 0px;
-    background-image:linear-gradient(to right, #01080E, #1DA981);
+    background-image:linear-gradient(to right, #111111, #1DA981);
     text-indent: 100px;
     transition-duration: 0.7s;
     
 }
+
+.page-menu {
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #093366;
+}
+
+.page-menu > a {
+    color: #90c2ff;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.page-menu > a:hover {
+    color: white;
+}
+
+
+.cards-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    margin: 50px;
+  }
+  
+  .card {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+
+  .card:hover {
+    position: relative;
+    bottom: 5px;
+    box-shadow: 3px 3px 5px #1b1c1caf;
+  }
+
+ div#primeiro-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 195, 255, 0.709), #111A1D);
+    
+ }
+
+div#primeiro-card > p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(211, 211, 211);
+}
+
+div#segundo-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141920;
+}
+
+div#segundo-card > p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(211, 211, 211);
+}
+
+
