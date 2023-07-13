@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+ }
+
+header {
+    width: 100vw;
+    background-color: #01080E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    padding: 24px;
+
+    
+
+}
+
+.title-search-box > a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: -430px;
+    
+}
+
+.input-search-box {
+    position: relative;
+    right: 285px;
+}
+
+.input-search-box > input {
+    background-color: transparent;
+    color: white;
+    padding: 12px;
+    width: 300px;
+    align-items: center;
+    border: 1px solid rgb(0, 247, 255);
+    
+    
+
+}
+
+.input-search-box > input::placeholder {
+    color: white;
+    font-size: 15px;
+    
+}
+
+.img-lupa {
+    position: relative;
+    height: 30px;
+    top: 10px;
+    right: 50px;
+    cursor: pointer;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 300px;
+}
+
+.menu > a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+    padding: 50px;
+    left: -200px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+
+}
+
+.menu > a:hover {
+    color: rgb(0, 247, 255);
+    text-decoration: underline;
+    transition-duration: 0.9s;
+    border-radius: 50px;    
+}
+
+.btn-header-acesse {
+    position: relative;
+    left: 400px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    background-image:linear-gradient(to right, #1DA981,  #01080E);
+    color: white;
+    text-indent: -100px;
+}
+
+.btn-header-acesse:hover {
+    position: relative;
+    left: 400px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background-image:linear-gradient(to right, #01080E, #1DA981);
+    text-indent: 100px;
+    transition-duration: 0.7s;
+    
+}
